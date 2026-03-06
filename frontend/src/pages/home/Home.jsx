@@ -1,9 +1,9 @@
-import React from 'react'
-
 function Home() {
-  return (
-    <div>Home</div>
-  )
+  return
+    <div>
+      <Sidebar/>
+      {/* <MessageContainer/> */}
+    </div>
 }
 
 export default Home

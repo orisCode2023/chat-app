@@ -1,8 +1,19 @@
-import React from 'react'
-
 function GenderCheckbox() {
   return (
-    <div>GenderCheckbox</div>
+  <div>
+    <div>
+      <label htmlFor="">
+        <span>Male</span>
+        <input type="checkbox" name="" id="" />
+      </label>
+    </div>
+    <div>
+      <label htmlFor="">
+        <span>Female</span>
+        <input type="checkbox" name="" id="" />
+      </label>
+    </div>
+  </div>
   )
 }
 
