@@ -1,9 +1,10 @@
+import Sidebar from "../../components/sidebar/Sidebar"
+import MessageContainer from "../../components/messages/MessageContainer"
 function Home() {
-  return
-    <div>
+  return(<div>
       <Sidebar/>
-      {/* <MessageContainer/> */}
-    </div>
+      <MessageContainer/>
+    </div>)
 }
 
 export default Home

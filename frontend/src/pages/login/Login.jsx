@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Login() {
   return (
     <div>
@@ -15,7 +17,7 @@ function Login() {
           </label>
           <input type="password" placeholder='Enter Password' />
         </div>
-        <a href="#">Don't have an account? </a>
+        <Link to={'/signup'}>Don't have an account?</Link>
         <div>
           <button>Login</button>
         </div>
